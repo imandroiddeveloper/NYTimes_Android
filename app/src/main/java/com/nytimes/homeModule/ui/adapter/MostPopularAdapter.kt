@@ -3,15 +3,12 @@ package com.nytimes.homeModule.ui.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
-import android.widget.LinearLayout
-import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.nytimes.R
 import com.nytimes.homeModule.interfaces.IMostPopularClickEvent
-import com.nytimes.homeModule.model.MostPopular
+import com.nytimes.homeModule.data.model.MostPopular
 import com.squareup.picasso.Picasso
 
 class MostPopularAdapter(

@@ -1,6 +1,6 @@
-package com.nytimes.homeModule.repository
+package com.nytimes.homeModule.data.repository
 
-import com.nytimes.homeModule.model.MostPopularResponse
+import com.nytimes.homeModule.data.model.MostPopularResponse
 import com.nytimes.network.NYTimesApi
 import retrofit2.Call
 

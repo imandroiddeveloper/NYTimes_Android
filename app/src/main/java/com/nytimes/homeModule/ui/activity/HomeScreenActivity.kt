@@ -1,7 +1,6 @@
 package com.nytimes.homeModule.ui.activity
 
 import android.os.Bundle
-import android.telephony.mbms.MbmsErrors
 import android.util.Log
 import android.view.View
 import android.widget.LinearLayout
@@ -10,17 +9,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.appcompat.widget.Toolbar
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetBehavior.BottomSheetCallback
 import com.nytimes.R
 import com.nytimes.homeModule.interfaces.IMostPopularClickEvent
-import com.nytimes.homeModule.model.MostPopular
-import com.nytimes.homeModule.model.MostPopularResponse
+import com.nytimes.homeModule.data.model.MostPopular
+import com.nytimes.homeModule.data.model.MostPopularResponse
 import com.nytimes.homeModule.ui.adapter.MostPopularAdapter
-import com.nytimes.homeModule.viewModel.NYTimesViewModel
+import com.nytimes.homeModule.data.viewModel.NYTimesViewModel
 import java.lang.Exception
 
 class HomeScreenActivity : AppCompatActivity() , IMostPopularClickEvent {

@@ -1,4 +1,4 @@
-package com.nytimes.homeModule.model
+package com.nytimes.homeModule.data.model
 
 import com.google.gson.annotations.SerializedName
 

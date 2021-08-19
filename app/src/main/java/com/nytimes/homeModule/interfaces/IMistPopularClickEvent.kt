@@ -1,6 +1,6 @@
 package com.nytimes.homeModule.interfaces
 
-import com.nytimes.homeModule.model.MostPopular
+import com.nytimes.homeModule.data.model.MostPopular
 
 interface IMostPopularClickEvent {
 

@@ -1,4 +1,4 @@
-package com.nytimes.homeModule.model
+package com.nytimes.homeModule.data.model
 
 class MediaMetadata (
     var url: String,

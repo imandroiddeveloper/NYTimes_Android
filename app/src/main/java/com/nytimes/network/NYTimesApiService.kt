@@ -1,7 +1,7 @@
 package com.nytimes.network
 
 import com.nytimes.BuildConfig.AUTHKEY
-import com.nytimes.homeModule.model.MostPopularResponse
+import com.nytimes.homeModule.data.model.MostPopularResponse
 import retrofit2.Call
 import retrofit2.http.*
 

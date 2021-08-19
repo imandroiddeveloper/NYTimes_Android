@@ -1,9 +1,9 @@
-package com.nytimes.homeModule.viewModel
+package com.nytimes.homeModule.data.viewModel
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-import com.nytimes.homeModule.model.MostPopularResponse
-import com.nytimes.homeModule.repository.NYTimesRepository
+import com.nytimes.homeModule.data.model.MostPopularResponse
+import com.nytimes.homeModule.data.repository.NYTimesRepository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
