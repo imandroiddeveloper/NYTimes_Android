@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/circlewithstroke"
+        android:padding="1dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="@dimen/_56sdp"
+            android:layout_height="@dimen/_56sdp"
+            app:cardElevation="0dp"
+            android:shape="rectangle"
+            android:padding="@dimen/_4sdp"
+            app:cardCornerRadius="@dimen/_28sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:background="@drawable/circle_transparent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/placeholder_cricle"
+                    android:id="@+id/itemImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:layout_height="@dimen/_60sdp">
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textItemTitleStyle"
+            android:id="@+id/itemTitleTextView"
+            android:text="What We Think We Know About Metabolism May Be Wrong">
+        </androidx.appcompat.widget.AppCompatTextView>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/itemSubTitleTextView"
+                style="@style/textItemSubTitleStyle"
+                android:text="What We Think We Know About Metabolism May Be Wrong nk We Know About Metabolism May Be Wrong"></androidx.appcompat.widget.AppCompatTextView>
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="bottom|center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/_11sdp"
+                    android:layout_height="@dimen/_11sdp"
+                    android:backgroundTint="@color/colorGrey"
+                    android:background="@android:drawable/ic_menu_my_calendar"></ImageView>
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/textItemDateTimeTitleStyle"
+                    android:id="@+id/itemDateTimeTextView"
+                    android:text="2017-08-19"></androidx.appcompat.widget.AppCompatTextView>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ImageView
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:backgroundTint="@color/colorGrey"
+        android:background="@drawable/ic_arrow"></ImageView>
+</androidx.appcompat.widget.LinearLayoutCompat>

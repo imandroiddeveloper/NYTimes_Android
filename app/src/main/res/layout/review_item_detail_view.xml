@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="top"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    android:id="@+id/design_bottom_sheet"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_42sdp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/ReviewBackArrow"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:rotation="180"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_regular"
+            android:singleLine="false"
+            android:text="@string/LBL_REVIEW_DETAIL"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_14sdp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorGrey"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/_25sdp"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textItemTitleStyle"
+            android:gravity="center"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_120sdp"
+            android:text="This screen used to show most popular detail screen.">
+        </androidx.appcompat.widget.AppCompatTextView>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

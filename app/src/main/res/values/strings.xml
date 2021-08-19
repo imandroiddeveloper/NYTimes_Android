@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NY Times</string>
+    <string name="LBL_POWERED_BY_THE_COMPANY">Powered By the Company</string>
+    <string name="LBL_REVIEW_DETAIL">Review Detail</string>
+    <string name="LBL_NY_TIMES_MOST_POPULAR">NY Times Most Popular</string>
+    <string name="LBL_TOTAL_RESULT_DISPLAY">Total Result display :</string>
+    <string name="LBL_NO_RECORD_FOUND">No Record found</string>
+</resources>
